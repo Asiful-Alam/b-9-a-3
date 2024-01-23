@@ -29,10 +29,10 @@
     
   </head>
   <!-- start -->
-  <body class="sm: p-4 ">
+  <body class="sm: p-5 lg:container mx-auto">
     <header class="lg:container lg:mx-auto">
       <!-- nav start -->
-      <nav class="">
+      <nav class="container mx-auto">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -76,7 +76,7 @@
           </div>
 
           <div class="navbar-end gap-6">
-            <img class="" src="Images/Frame (3).png" alt="" />
+            <img class="sm: hidden" src="Images/Frame (3).png" alt="" />
             <a class="btn bg-[#FF4240] text-3xl text-white">Button</a>
           </div>
         </div>
@@ -105,10 +105,11 @@
           </div>
         </div>
       </div>
-      <!-- <div class="h-[15vh] mx-auto w-1/5 bg-black absolute">
-        <h3>Meet all the heroes from the filed</h3>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-      </div> -->
+      <div class="
+      lg:h-[150px] w-[500px] mx-auto text-center justify-center p-5 bg-black absolute ml-[700px] -mt-48 text-[#FFF] rounded-2xl">
+        <h3 class="text-2xl font-extrabold">Meet all the heroes from the filed</h3>
+        <p class="mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
     </div>
       <!-- carousel-end -->
     </header>
@@ -119,7 +120,8 @@
         <h3 class="text-4xl">Professional Hockeys Club</h3>
         <p class="mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </section>
-      <section class="container mx-auto flex flex-1 lg:justify-center text-center mt-20 gap-28">
+      <!-- progression bar -->
+      <section class="container mx-auto flex sm: flex-col lg:justify-center text-center mt-20 gap-28">
         <div class="">
           <div class="radial-progress text-error" style="--value:70;" role="progressbar">70%</div>
         <h3 class="mt-5">prayer facility</h3>
@@ -147,8 +149,8 @@
         <h class="mt-5">Program Section</h>
         <p class="mt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </section>
-      <section class="container  mx-auto mt-5 text flex flex-2 gap-6">
-        <div class="card mx-auto w-1/2 text-center bg-[#131318] image-full">
+      <section class="container  mx-auto mt-5 sm:flex flex-col  lg:text-start flex flex-2 gap-6">
+        <div class="card mx-auto lg:w-1/2 text-center bg-[#131318] image-full">
           <figure><img class="bg-cover" src="Images/2.png" alt="" /></figure>
           <div class="card-body">
             <h2 class="card-titl text-center">Shoes!</h2>
@@ -158,8 +160,21 @@
             </div>
           </div>
         </div>
-        <div class="card mx-auto w-1/2 text-center bg-[#131318] image-full">
+        <div class="card mx-auto  lg:w-1/2 text-center bg-[#131318] image-full ">
           <figure><img class="bg-cover" src="Images/2.png" alt="" /></figure>
+          <div class="card-body">
+            <h2 class="card-titl text-center">Professional Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions ">
+              <button class="btn btn-primary ">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="grid grid-cols-1">
+        <div class="lg:card mx-auto bg-cover text-center bg-[#131318] image-full">
+          <img class="bg-cover" src="Images/2.png" alt="" />
           <div class="card-body">
             <h2 class="card-titl text-center">Professional Program</h2>
             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
@@ -176,9 +191,9 @@
         <p class="mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </section>
       <!-- new products card -->
-      <section class="container mt-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 ">
+      <section class="container mt-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- first card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -202,7 +217,7 @@
           </div>
         </div>
         <!-- second card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -226,7 +241,7 @@
           </div>
         </div>
         <!-- third card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -250,7 +265,7 @@
           </div>
         </div>
         <!-- fourth card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -274,7 +289,7 @@
           </div>
         </div>
         <!-- fifth card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -298,7 +313,7 @@
           </div>
         </div>
         <!-- sixth card -->
-        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6">
+        <div class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col">
           <img src="Images/5.png" alt=""/>
           <div class="card-body">
            <div class="flex gap-2">
@@ -328,7 +343,7 @@
         <p class="mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </section>
       <!-- accordian section -->
-      <section class="container mx-auto p-5 gap-10 flex justify-evenly">
+      <section class="container mx-auto p-5 gap-10 flex justify-evenly sm:flex flex-col">
         <div>
           <img src="Images/11.png" alt="">
         </div>
@@ -388,37 +403,44 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer>
-      <footer class="footer grid-rows-1 p-10 bg-neutral text-neutral-content">
-        <nav>
-          <header class="footer-title text-2xl">Get In Touch</header> 
+      <footer class="footer mt-6 grid-rows-1 p-10 bg-neutral text-neutral-content ">
+        <nav class="sm:justify-center">
+          <header class="footer-title text-2xl sm: justify-center text-center">Get In Touch</header> 
           <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus<br> urna in sit nullam proin. </p>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+         <div class="flex gap-3">
+          <img src="Images/Frame (4).png"/>
+          <P>hockey@gmail.com</P>
+         </div>
+         <div class="flex gap-3">
+          <img src="Images/Frame (5).png"/>
+          <P>01521251680</P>
+         </div>
+
         </nav> 
-        <nav>
-          <header class="footer-title">Company</header> 
+        <nav >
+          <header class="footer-title text-2xl">Company</header> 
           <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover">Legal Notice</a>
         </nav> 
         <nav>
-          <header class="footer-title">Legal</header> 
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
+          <header class="footer-title text-2xl">Support</header> 
+          <a class="link link-hover">Help Center</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Ticket Support</a>
+          <a class="link link-hover">Contact Us</a>
         </nav> 
         <nav>
-          <header class="footer-title">Social</header> 
-          <a class="link link-hover">Twitter</a>
-          <a class="link link-hover">Instagram</a>
-          <a class="link link-hover">Facebook</a>
-          <a class="link link-hover">Github</a>
+          <header class="footer-title text-2xl">Services</header> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockey for kids</a>
+          <a class="link link-hover">Hockey for adult</a>
         </nav> 
        
       </footer>
-    </footer>
   </body>
 </html>
