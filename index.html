@@ -41,7 +41,7 @@
     <header class="lg:container lg:mx-auto">
       <!-- nav start -->
       <nav class="container mx-auto">
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 font-normal">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -62,20 +62,20 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-normal "
               >
-                <li><a>Home</a></li>
+                <li><a><span style="color: red;">Home</span></a></li>
                 <li><a>About</a></li>
                 <li><a>Pages</a></li>
                 <li><a>Blog</a></li>
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-2xl lg:text-4xl">Hockey<span style="color: red;">'</span>s</a>
+            <a class="btn btn-ghost text-2xl font-extrabold lg:text-4xl">Hockey<span style="color: red;">'</span>s</a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              <li><a>Home</a></li>
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li><a><span style="color: red;">Home</span></a></li>
               <li><a>About</a></li>
               <li><a>Pages</a></li>
               <li><a>Blog</a></li>
@@ -85,7 +85,7 @@
 
           <div class="navbar-end gap-6">
             <img class="sm: hidden" src="Images/Frame (3).png" alt="" />
-            <a class="btn bg-[#FF4240] text-3xl text-white">Button</a>
+            <a class="btn bg-[#FF4240] text-[18px] font-bold lg:text-3xl text-white ">Get Ticket</a>
           </div>
         </div>
       </nav>
@@ -118,12 +118,11 @@
           <div id="slide2" class="carousel-item relative w-full bg-[url(./Images/1.png)] bg-cover bg-center">
             <!-- bannerr 2 sticker -->
             <div class="hidden lg:flex flex-col absolute bg-black bottom-10 right-10 h-40 lg:w-[550px] space-y-2 rounded-xl p-6">
-              <h3 class="text-white font-extrabold text-lg lg:text-2xl">
+              <h3 class="text-white font-extrabold text-lg lg:text-2xl         ">
                 Meet all the heroes from the field
               </h3>
               <p class="text-white opacity-70">
-                Ice hockey is a game between two teams who wear skates and compete
-                on an ice rink. Each team usually has six players
+                As we introduce you to the unsung heroes and legendary figures who have left an indelible mark on the world of hockey."
               </p>
             </div>
             <div
@@ -148,22 +147,20 @@
             <h3 class="text-white font-extrabold text-lg lg:text-2xl">
               Meet all the heroes from the field
             </h3>
-            <p class="text-white opacity-70">
-              Ice hockey is a game between two teams who wear skates and compete
-              on an ice rink. Each team usually has six players
+            <p class="text-white opacity-70 font-medium">
+              As we introduce you to the unsung heroes and legendary figures who have left an indelible mark on the world of hockey."
             </p>
           </div>
         </div>
         <!-- stciker div samll device -->
         <div
-            class="lg:hidden bg-black h-40 lg:w-[550px] space-y-2 rounded-xl p-6"
+            class="lg:hidden bg-black h-40 lg:w-[550px] space-y-2 rounded-xl p-6 font-medium"
           >
             <h3 class="text-white font-extrabold text-lg lg:text-2xl">
               Meet all the heroes from the field
             </h3>
             <p class="text-white opacity-70">
-              Ice hockey is a game between two teams who wear skates and compete
-              on an ice rink. Each team usually has six players
+              As we introduce you to the unsung heroes and legendary figures who have left an indelible mark on the world of hockey."
             </p>
           </div>
         
@@ -173,72 +170,73 @@
     <!-- main start -->
     <main class="container mx-auto">
       <!-- professional hockey club -->
-      <section class="text-center mt-[100px]">
-        <h3 class="text-4xl">Professional Hockeys Club</h3>
-        <p class="mt-6">
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
+      <section class="text-center mt-[100px]"> 
+        <h3 class="text-2xl font-extrabold lg:text-4xl lg:font-extrabold">Professional Hockeys Club</h3>
+        <p class="mt-6 font-medium">
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
           placerat dolor. Purus urna in sit nullam proin.
         </p>
       </section>
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
       <!-- progression bar -->
       <section
-        class="container mx-auto flex flex-col lg:flex-row justify-center text-center mt-20 gap-28"
+        class="container mx-auto flex flex-col lg:flex-row justify-center text-center mt-20 gap-28 text-3xl  "
       >
         <div>
           <div
             class="radial-progress text-error"
-            style="--value: 70"
+            style="--value: 87 "
             role="progressbar"
           >
-            70%
+            87%
           </div>
-          <h3 class="mt-5">prayer facility</h3>
-          <p class="mt-5">Amet consectetur. Condimentum adipiscing .</p>
+          <h3 class="mt-5 font-semibold">Prayer Facility</h3>
+          <p class="mt-5">Discover a sacred space at our Hockey Prayer Facility.</p>
         </div>
         <div class="">
           <div
             class="radial-progress text-success"
-            style="--value: 70"
+            style="--value: 95"
             role="progressbar"
           >
-            70%
+            95%
           </div>
-          <h3 class="mt-5">prayer facility</h3>
-          <p class="mt-5">Amet consectetur. Condimentum adipiscing .</p>
+          <h3 class="mt-5 font-semibold">Experienced Coach</h3>
+          <p class="mt-5">Seasoned coach leads hockey club with expertise,shaping aspiring champions.</p>
         </div>
         <div class="">
           <div
             class="radial-progress text-warning"
-            style="--value: 70"
+            style="--value: 90"
             role="progressbar"
           >
-            70%
+            90%
           </div>
-          <h3 class="mt-5">prayer facility</h3>
-          <p class="mt-5">Amet consectetur. Condimentum adipiscing .</p>
+          <h3 class="mt-5 font-semibold">Senior Player </h3>
+          <p class="mt-5">Veteran players exhibit skill, leadership, and resilience on the field.</p>
         </div>
         <div class="">
-          <div
+          <div 
             class="radial-progress text-info"
-            style="--value: 70"
+            style="--value: 80"
             role="progressbar"
           >
-            70%
+            80%
           </div>
-          <h3 class="mt-5">prayer facility</h3>
-          <p class="mt-5">Amet consectetur. Condimentum adipiscing .</p>
+          <h3 class="mt-5 font-semibold">Training Ground</h3>
+          <p class="mt-5">Dedicated training ground fosters skill development and team collaboration effectively.</p>
         </div>
       </section>
       <!-- program section -->
       <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
-      <section class="container mx-auto text-center mt-24">
-        <h class="mt-5">Program Section</h>
-        <p class="mt-5">
-          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-          placerat dolor. Purus urna in sit nullam proin.
+      <section class="container mx-auto text-center ">
+        <h class="text-2xl lg:text-4xl font-extrabold ">Program Sections</h>
+        <p class="mt-5 font-medium">
+          Here you can see our plan and programms how we take care of our players.
         </p>
       </section>
-      <section
+      <section 
         class="container mx-auto mt-5 flex flex-col lg:flex-row justify-between text-start gap-6"
       >
         <div
@@ -247,10 +245,9 @@
           <div
             class="w-full h-full space-y-3 px-10 py-10 lg:pt-44 bg-black bg-opacity-40 rounded-3xl"
           >
-            <h3 class="text-white font-extrabold text-3xl">Junior Program</h3>
+            <h3 class="text-white font-extrabold text-3xl">Teenager Program</h3>
             <p class="text-white font-medium">
-              Ice hockey is a game between two teams who wear skates and compete
-              on an ice rink
+              Here you can see our plan and programms how we take care of our teenager players.
             </p>
             <button class="btn bg-[#FF4240] text-white">Register Now!</button>
           </div>
@@ -263,8 +260,7 @@
           >
             <h3 class="text-white font-extrabold text-3xl">Junior Program</h3>
             <p class="text-white font-medium">
-              Ice hockey is a game between two teams who wear skates and compete
-              on an ice rink
+              Here you can see our plan and programms how we take care of our junior players.
             </p>
             <button class="btn bg-[#FF4240] text-white">Register Now!</button>
           </div>
@@ -277,23 +273,23 @@
           <div
             class="w-full h-full space-y-3 px-10 py-10 lg:pt-44 bg-black bg-opacity-40 rounded-3xl"
           >
-            <h3 class="text-white font-extrabold text-3xl">Junior Program</h3>
+            <h3 class="text-white font-extrabold text-3xl">Professional Program</h3>
             <p class="text-white font-medium">
-              Ice hockey is a game between two teams who wear skates and compete
-              on an ice rink
+              Here you can see our plan and programms how we take care of our professional players.
             </p>
             <button class="btn bg-[#FF4240] text-white">Register Now!</button>
           </div>
         </div>
       </section>
       <!-- new products section start -->
-      <section class="text-center mt-[100px]">
-        <h3 class="text-4xl">Our New Products</h3>
-        <p class="mt-6">
-          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-          placerat dolor. Purus urna in sit nullam proin.
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
+      <section class="text-center">
+        <h3 class="text-2xl  lg:text-4xl font-extrabold">Our New Products</h3>
+        <p class="mt-6 font-medium">
+          There are lot of new products in our house.Grab yours.
         </p>
       </section>
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
       <!-- new products card -->
       <section
         class="container mt-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6"
@@ -319,11 +315,11 @@
                 200
               </div>
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <h2 class="card-title text-2xl font-extrabold">World Cup Football Jacket</h2>
+            <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
             <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
+              <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+              <img class="txet-[#131318] font-medium" src="Images/cart.png" />
               Delivery Fee:Free
             </div>
           </div>
@@ -332,7 +328,7 @@
         <div
           class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
         >
-          <img src="Images/5.png" alt="" />
+          <img src="Images/6.png" alt="" />
           <div class="card-body">
             <div class="flex gap-2">
               <div class="rating gap-4">
@@ -349,11 +345,11 @@
                 200
               </div>
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <h2 class="card-title text-2xl font-extrabold">Laliga Final Football</h2>
+            <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
             <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
+              <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+              <img class="txet-[#131318] font-medium" src="Images/cart.png" />
               Delivery Fee:Free
             </div>
           </div>
@@ -362,7 +358,7 @@
         <div
           class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
         >
-          <img src="Images/5.png" alt="" />
+          <img src="Images/7.png" alt="" />
           <div class="card-body">
             <div class="flex gap-2">
               <div class="rating gap-4">
@@ -379,11 +375,11 @@
                 200
               </div>
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <h2 class="card-title text-2xl font-extrabold">World Cup Cricket Cap</h2>
+            <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
             <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
+              <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+              <img class="txet-[#131318] font-medium" src="Images/cart.png" />
               Delivery Fee:Free
             </div>
           </div>
@@ -392,7 +388,7 @@
         <div
           class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
         >
-          <img src="Images/5.png" alt="" />
+          <img src="Images/8.png" alt="" />
           <div class="card-body">
             <div class="flex gap-2">
               <div class="rating gap-4">
@@ -409,11 +405,11 @@
                 200
               </div>
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <h2 class="card-title text-2xl font-extrabold">World Cup Teams Jersey</h2>
+            <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
             <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
+              <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+              <img class="txet-[#131318] font-medium" src="Images/cart.png" />
               Delivery Fee:Free
             </div>
           </div>
@@ -422,7 +418,7 @@
         <div
           class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
         >
-          <img src="Images/5.png" alt="" />
+          <img src="Images/9.png" alt="" />
           <div class="card-body">
             <div class="flex gap-2">
               <div class="rating gap-4">
@@ -439,52 +435,52 @@
                 200
               </div>
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <h2 class="card-title text-2xl font-extrabold">World Cup Cricket Helmet</h2>
+            <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
             <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
+              <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+              <img class="txet-[#131318] font-medium" src="Images/cart.png" />
               Delivery Fee:Free
             </div>
           </div>
         </div>
         <!-- sixth card -->
         <div
-          class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
-        >
-          <img src="Images/5.png" alt="" />
-          <div class="card-body">
-            <div class="flex gap-2">
-              <div class="rating gap-4">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-orange-400"
-                />
-                5.0
-              </div>
-              <div class="flex gap-2"><img src="Images/eye (1).png" /> 20</div>
-              <div class="flex gap-2">
-                <img src="Images/heart.png" />
-                200
-              </div>
+        class="cardcard-side flex max-w-100 bg-base-100 shadow-xl p-6 sm:flex flex-col"
+      >
+        <img src="Images/10.png" alt="" />
+        <div class="card-body">
+          <div class="flex gap-2">
+            <div class="rating gap-4">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              5.0
             </div>
-            <h2 class="card-title text-xl">World Cup Flages Football</h2>
-            <p>Click the button to watch on Jetflix app.</p>
-            <div class="card-actions">
-              <h2 class="text-[#FF4240] font-bold">Price-$22.00</h2>
-              <img src="Images/cart.png" />
-              Delivery Fee:Free
+            <div class="flex gap-2"><img src="Images/eye (1).png" /> 20</div>
+            <div class="flex gap-2">
+              <img src="Images/heart.png" />
+              200
             </div>
           </div>
+          <h2 class="card-title text-2xl font-extrabold">World Cup Football</h2>
+          <p class="text-[#131318] font-medium ">Click the button to watch on Jetflix app.</p>
+          <div class="card-actions">
+            <h2 class="text-[#FF4240] font-extrabold">Price-$22.00</h2>
+            <img class="txet-[#131318] font-medium" src="Images/cart.png" />
+            Delivery Fee:Free
+          </div>
         </div>
+      </div>
       </section>
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" /> 
       <!-- client question -->
-      <section class="text-center mt-[100px]">
-        <h3 class="text-4xl">Clients Question</h3>
+      <section class="text-center"> 
+        <h3 class="text-2xl font-extrabold lg:text-4xl font-extrabold">Clients Question</h3>
         <p class="mt-6">
-          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-          placerat dolor. Purus urna in sit nullam proin.
+          Please here you can find some of basic question answares which will help you to know about us.
         </p>
       </section>
       <!-- accordian section -->
@@ -500,76 +496,79 @@
               class="collapse collapse-arrow join-item border border-base-300"
             >
               <input type="radio" name="my-accordion-4" checked="checked" />
-              <div class="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              <div class="collapse-title text-3xl font-bold ">
+                Our Equipment
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p>You dont worry about equipment.We provide you everythings</p>
               </div>
             </div>
             <div
               class="collapse collapse-arrow join-item border border-base-300"
             >
               <input type="radio" name="my-accordion-4" checked="checked" />
-              <div class="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              <div class="collapse-title text-3xl font-bold ">
+                Hockey Training
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p>We have 5 slots for training you</p>
               </div>
             </div>
             <div
               class="collapse collapse-arrow join-item border border-base-300"
             >
               <input type="radio" name="my-accordion-4" checked="checked" />
-              <div class="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              <div class="collapse-title text-3xl font-bold ">
+                Private Lessons
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p>There we have most experienced coach</p>
               </div>
             </div>
             <div
               class="collapse collapse-arrow join-item border border-base-300"
             >
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              <div class="collapse-title text-3xl font-bold ">
+                Ski Touring
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p>If you want then please feel free to visit us</p>
               </div>
             </div>
             <div
               class="collapse collapse-arrow join-item border border-base-300"
             >
               <input type="radio" name="my-accordion-4" />
-              <div class="collapse-title text-xl font-medium">
-                Click to open this one and close others
+              <div class="collapse-title text-3xl font-bold ">
+                Booking
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p>Book Our Hockey Play Ground</p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- get in touch section -->
-      <section class="text-center mt-[100px]">
-        <h3 class="text-4xl">Get In Touch</h3>
-        <p class="mt-6">
-          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-          placerat dolor. Purus urna in sit nullam proin.
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" />
+      <section class="text-center">
+        <h3 class="text-2xl lg:text-4xl font-extrabold">Get In Touch</h3>
+        <p class="mt-6 TEXT-[#131318] font-medium">
+          Connect with our hockey club for updates, events, and exciting opportunities to support and participate.
         </p>
       </section>
+      
       <!-- mail section -->
+      <hr class="border-dashed mx-4 lg:mx-auto my-6 dark:bg-gray-400" /> 
       <section>
+        <!-- left side portion -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div class="space-y-6 border-2 p-12 rounded-xl">
             <div class="h-56 w-full bg-[#bced6e1a] p-10 rounded-xl">
               <img src="Images/Group 1171275317.png" alt="" />
               <p class="opacity-80 mt-6 mb-2">Phone Number :</p>
-              <p class="font-extrabold">(+62) 123-321-543</p>
+              <p class="font-extrabold">(+88) 01521251680</p>
             </div>
             <div class="h-56 w-full bg-[#fddb5f1a] p-10 rounded-xl">
               <img src="Images/Group 1171275318.png" alt="" />
@@ -579,13 +578,13 @@
             <div class="h-56 w-full bg-[#629cf31a] p-10 rounded-xl">
               <img src="Images/Group 1171275321.png" alt="" />
               <p class="opacity-80 mt-6 mb-2">Location :</p>
-              <p class="font-extrabold">152/1 Mohakhali Wireless Gate</p>
+              <p class="font-extrabold">98/A dhanmondi, Dhaka</p>
             </div>
           </div>
           <div class="lg:col-span-2 space-y-6">
-            <!-- name and email -->
+            <!-- right side portion-->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <!-- name -->
+              
               <label class="form-control w-full">
                 <div class="label">
                   <span class="label-text text-xl font-extrabold"
@@ -598,7 +597,7 @@
                   class="input input-bordered w-full border-none bg-[#13131805]"
                 />
               </label>
-              <!-- email -->
+             
               <label class="form-control w-full">
                 <div class="label">
                   <span class="label-text text-xl font-extrabold"
@@ -613,9 +612,9 @@
               </label>
             </div>
 
-            <!-- Subject and phone -->
+            
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <!-- subject -->
+        
               <label class="form-control w-full">
                 <div class="label">
                   <span class="label-text text-xl font-extrabold">Subject</span>
@@ -626,7 +625,7 @@
                   class="input input-bordered w-full border-none bg-[#13131805]"
                 />
               </label>
-              <!-- phone -->
+           
               <label class="form-control w-full">
                 <div class="label">
                   <span class="label-text text-xl font-extrabold"
@@ -640,7 +639,7 @@
                 />
               </label>
             </div>
-            <!-- message -->
+           
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text text-xl font-extrabold">Meessage</span>
@@ -650,7 +649,7 @@
                 placeholder="Write your message"
               ></textarea>
             </label>
-            <!-- button -->
+          
             <button class="btn w-full bg-[#FF4240] text-white h-20">
               Send Message
             </button>
@@ -674,16 +673,12 @@
     <footer
       class="footer mt-6 p-10 bg-neutral text-neutral-content"
     >
-    
-        
           <div class="text-center lg:text-start text-white text-opacity-60 space-y-2 ">
             <h3 class="font-extrabold text-3xl text-white">Get In Touch</h3>
-            <p >Ice hockey is a game between two teams who wear skates</p>
+            <p >Go For Glory</p>
             <p><i class="fa-regular fa-envelope fa-fw text-red-600 mr-2"></i> hockeys@support.com</p>
-            <p> <i class="fa-solid fa-phone text-red-600 mr-3.5"></i>(+62) 123-321-543</p>
+            <p> <i class="fa-solid fa-phone text-red-600 mr-3.5"></i>(+88) 01521251680</p>
           </div>
-      
-      
       <div class="grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 text-white text-opacity-60">
       <div class="flex flex-col justify-start items-center lg:items-start space-y-2">
         <h4 class="font-extrabold text-3xl text-white">Company</h4>
